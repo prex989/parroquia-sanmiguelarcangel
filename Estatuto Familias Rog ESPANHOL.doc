@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="sKLfgzwaaH7wXWgY6dPQlo5NvvmZJj2jB9Qd-TohipU" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rogacionistas</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script src="js/menu.js" type="text/javascript"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+  <!-- Demo CSS -->
+	<link rel="stylesheet" href="js/banner/flexslider.css" type="text/css" media="screen" />
+	
+	<!-- Modernizr -->
+  <script src="js/banner/modernizr.js"></script>
+
+</head>
+<body background="images/img_fundo_body.jpg">
+
+
+<div id="root">
+<div id="menu">
+  <!--<p><a href="http://www.rogacionistas.org.br/index.php" target="_self">HOME</a></p>
+  <p>|</p>-->
+  <p><a href="http://www.rogacionistas.org.br/quem-somos.php" target="_self">QUEM SOMOS</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/santo-anibal.php" target="_self">SANTO ANÍBAL</a></p>
+  <p>|</p>
+  <p><a href="#" target="_self" onmouseover="dropdownmenu(this, event, menu1, '170px')" onmouseout="delayhidemenu()">SETORES</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/nossas-casas.php" target="_self">NOSSAS CASAS</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/mensagens.php" target="_self">MENSAGEM</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/agenda.php" target="_self">AGENDA</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/fotos.php" target="_self">FOTOS</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/videos.php" target="_self">VÍDEOS</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/downloads.php" target="_self">DOWNLOADS</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogate.org.br/loja/" target="_blank">LOJA VIRTUAL</a></p>
+  <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/deixe-seu-recado.php" target="_self">RECADOS</a></p>
+   <p>|</p>
+  <p><a href="http://www.rogacionistas.org.br/contato.php" target="_self">CONTATO</a></p>
+  
+</div><div id="topo">
+<div class="logo">
+<a href="index.php"><img src="images/img_logo.jpg" /></a></div>
+
+
+<div class="redesSociais">
+<img src="images/img_redes_sociais.jpg" border="0" usemap="#Map" />
+<map name="Map" id="Map"><area shape="rect" coords="51,28,83,60" href="https://www.facebook.com/rogacionistas" target="_blank" /> 
+<area shape="rect" coords="93,24,126,61" href="http://www.instagram.com/rogacionistas" target="_blank" />
+<area shape="rect" coords="172,23,208,62" href="http://rogacionista.org/" target="_blank" />
+<area shape="rect" coords="214,24,289,63" href="http://webmail.rcj.org" target="_blank" />
+<area shape="rect" coords="128,22,166,62" href="http://www.youtube.com/channel/UCALxI2DtJFx1VHGNXLmBKnw" target="_blank" />
+
+</map>
+</div>
+
+
+</div>
+
+<div id="busca">
+	<script>
+	  (function() {
+		var cx = '012095739811491772693:yeu6zgl4mtu';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			'//www.google.com/cse/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
+	<div style="width:235px; float:right; margin-right:30px;"><gcse:searchbox-only></gcse:searchbox-only></div>
+</div><!-- fecha div busca -->
+<!-- <div><img src="images/tit-busca.png" width="918" height="24" style="margin-bottom:20px;" /></div> -->
+
+
+<div id="fotoHome"><!-- INICIO fotoHome -->
+    <div class="flash">
+    <section class="slider">
+      <div class="flexslider">
+        <ul class="slides">
+              <li>
+              <a href="http://rogacionistas.org.br/OracaoSenhoraRogate.pdf" target="_blank"><img src="images/banner1.jpg" border="0" /></a>
+              </li>
+              <li>
+              <a href="http://www.rogacionistas.org.br/terco.pdf" target="_blank"><img src="images/banner2.jpg" border="0" /></a>
+              </li>
+              <li>
+              <a href="http://www.rogacionistas.org.br/rosario.pdf" target="_blank"><img src="images/banner3.jpg" border="0" /></a>
+              </li>
+              <li>
+              <a href="http://www.rogate.org.br" target="_blank"><img src="images/banner4.jpg" border="0" /></a>
+              </li>
+
+
+        </ul>
+      </div>
+    </section>
+    </div>
+
+    <div class="box"><!-- INICIO MURAL -->
+        
+    <p style="padding-right:50px">
+    &quot;Na Festa da Apresentação do Senhor, vimos dirigir uma prece de gratidão a Deus por conceder a graça da Consagração a tantos homens e mulheres, que pela força do batismo foram chamados a serem lâmpadas acesas, profetas e profetisas...&quot;
+    </p>
+        </div><!-- FINAL MURAL -->
+</div><!-- FINAL fotoHome -->
+
+<div style="z-index:99999; float:right; margin-right:70px; margin-bottom:40px;">
+	<a href="mensagens.php?id_mensagem=93">
+		<img src="images/bot_leia_mais.jpg" />
+    </a>
+</div>
+
+
+
+<div id="mioloHomeBoxChamadas">
+<div class="width140">
+<h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Vocacional" class="setor">Vocacional</a></h2>
+<p style="height:50px"><a href="noticias.php?id_noticia=276&setor=Vocacional" class="colorBranco">Manuais Vocacionais para Catequese de Eucaristia e Crisma</a></p>
+</div>
+
+<div class="width140">
+  <h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Missão" class="setor">Missão</a></h2>
+  <p style="height:50px"><a href="noticias.php?id_noticia=281&setor=Missão" class="colorBranco">Veja a Retrospectiva da Provínica São Lucas</a></p>
+</div>
+
+<div class="width140">
+  <h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Formação" class="setor">Formação</a></h2>
+  <p style="height:50px"><a href="noticias.php?id_noticia=278&setor=Formação" class="colorBranco">Assembleia da CRB-SP elege um Rogacionista entre os membros da coordenação</a></p>
+</div>
+<div class="width140">
+  <h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Juventudes" class="setor">Juventudes</a></h2>
+  <p style="height:50px"><a href="noticias.php?id_noticia=270&setor=Juventudes" class="colorBranco">Grupos de Jovens na maioria das paróquias: verdade?</a></p>
+</div>
+<div class="width140">
+  <h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Socioeducativo" class="setor">Socioeducativo</a></h2>
+  <p style="height:50px"><a href="noticias.php?id_noticia=277&setor=Socioeducativo" class="colorBranco">Educadores Rogacionistas reúnem-se no Brasil e Argentina</a></p>
+</div>
+<div class="width140">
+  <h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Paróquia" class="setor">Paróquia</a></h2>
+  <p style="height:50px"><a href="noticias.php?id_noticia=269&setor=Paróquia" class="colorBranco">Indicações ao trabalho de evangelização no carisma</a></p>
+</div>
+
+
+
+
+<div class="width320">
+  <h2><a href="http://www.rogacionistas.org.br/setores.php?setor=Família do Rogate" class="setor">Família do Rogate</a></h2>
+  <p style="height:50px"><a href="noticias.php?id_noticia=280&setor=Família do Rogate" class="colorBranco"><strong>Encontro das Famílias Rog será em Tucumán</strong><br />
+A 14ª edição do Encontro Anual da Associação das Famílias Rog da...</a></p>
+</div>
+
+
+<div class="width164" style="height:110px;">
+
+<p><a href="recados.php" class="colorBranco"><em>&quot;Padre Tadeu, desejo muita vitalidade e que seu governo seja próspero para a congregação...&quot;  </em></a></p><br />
+  <p style="float:right; margin-right:8px">Richard Brunel Mat</p>
+    
+</div>
+
+<br clear="both" />
+<!--<a href="recados.php"><img src="images/bot_mais_recados.jpg" /></a>-->
+<br />
+
+</div>
+
+
+
+<div id="mioloHomeBoxAgenda">
+<img src="images/img_tit_agenda.jpg" />
+<br />
+<br />
+
+
+
+
+
+
+<p style='padding-right:15px'><strong>27/02/2020</strong><br><strong>Local:</strong> São Paulo/SP<br><a href='agenda.php?id_evento=450' style='color:#7D7D7D'>Reunião da EDUCAR (Brasil)</a></p><br><p style='padding-right:15px'><strong>03/03/2020</strong><br><strong>Local:</strong> São Paulo<br><a href='agenda.php?id_evento=451' style='color:#7D7D7D'>1ª Reunião do Governo Provincial 2020</a></p><br><p style='padding-right:15px'><strong>06/03/2020</strong><br><strong>Local:</strong> San Lorenzo - Paraguai<br><a href='agenda.php?id_evento=452' style='color:#7D7D7D'>Visita Canônica do Superior Provincial </a></p><br><p style='padding-right:15px'><strong>10/03/2020</strong><br><strong>Local:</strong> Centro Rogate do Brasil<br><a href='agenda.php?id_evento=453' style='color:#7D7D7D'>Reunião dos ecônomos e captação  de recursos</a></p><br>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="agenda.php" target="_self"><img src="images/tit_mais_eventos.jpg" /></a></div>
+
+
+
+<div id="mioloHomeBoxGaleria">
+<img src="images/tit_galeria_de_fotos.jpg" />
+<br />
+<h2>Reunião dos Superiores de Circunscrição</h2><br><p style='margin-right:50px'>O Superior Provincial, Pe. Geraldo Tadeu Furtado está participando da reunião com o Governo Geral que acontece de 17 a 21 de fevereiro de 2020, em Roma/Itáli...</p><br />                            
+							<img src="adm/adm/adm/adm/../../../images/galeria/galeria_323/86665307_2393514900897200_3643593646810333184_o.jpg" />
+                                                        
+							<img src="adm/adm/adm/adm/../../../images/galeria/galeria_323/87049836_2393514947563862_7115562316027920384_o.jpg" />
+                                                        
+							<img src="adm/adm/adm/adm/../../../images/galeria/galeria_323/r2.jpg" />
+                                                         <Br />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="galeria-de-fotos.php?id_galeria=323&setor=Missão"><img src="images/tit_fotos.jpg" width="55" height="18" /></a><br /> 
+                            
+</div>
+
+<div id="mioloHomeBoxVideos">
+<div class="video">
+
+          <br style="line-height:30px" />
+
+            <object width="319" height="242"><param name="movie" value="http://www.youtube.com/v/GgnpX2ix6rY&hl=pt-br&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/GgnpX2ix6rY&hl=pt-br&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="319" height="242"></embed></object>
+            
+        
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="videos.php"><img src="images/tit_mais_videos.jpg" width="70" height="18" style="margin-top:5px" /></a></div>
+
+
+
+
+</div>
+
+
+
+<div id="mioloHomeBoxSites">
+<p><img src="images/tit_sites.jpg" />
+  <br />
+</p>
+<p>&nbsp;</p>
+<table width="940" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="http://www.rcj.org/" target="_blank"><img src="images/img_logo_rcj.png" width="49" height="73" border="0" /></a></td>
+    <td width="8">&nbsp;</td>
+    <td><span class="font13ArialCinza"><strong>RCJ<br />
+    </strong>Rogacionistas <br />
+    do Coração de Jesus</span></td>
+    <td width="15"><a href="http://www.rogate.net/" target="_blank"></a></td>
+    <td><a href="http://www.rogate.net/" target="_blank"><img src="images/img_logo_rogate.jpg" width="90" height="22" border="0" /></a></td>
+    <td width="15">&nbsp;</td>
+    <td><a href="http://www.fdz.org.br/" target="_blank"><img src="images/img_logo_filhos.jpg" width="44" height="62"/></a></td>
+    <td width="8">&nbsp;</td>
+    <td width="80"><strong class="font13ArialCinza">FDZ<br />
+      </strong><span class="font13ArialCinza">Filhas do <br />
+Divinio Zelo</span></td>
+    <td width="15">&nbsp;</td>
+    <td><a href="http://www.missionariarog.blogspot.com/" target="_blank"><img src="images/img_logo_missionarias.png" width="61" height="67" border="0"/></a></td>
+    <td width="8">&nbsp;</td>
+    <td><strong class="font13ArialCinza">Missionárias Rogacionistas</strong></td>
+    <td width="15">&nbsp;</td>
+    <td><a href="http://www.vatican.va/" target="_blank"><img src="images/img_logo_vaticano.png" width="68" height="68" border="0" class="floatLeft" /></a></td>
+    <td width="8">&nbsp;</td>
+    <td><strong class="font13ArialCinza">Vaticano</strong></td>
+    <td width="15">&nbsp;</td>
+    <td><a href="http://www.celam.org/" target="_blank"><img src="images/img_logo_celam.jpg" width="60" height="63" border="0" class="floatLeft" /></a></td>
+    <td width="8">&nbsp;</td>
+    <td><span class="font13ArialCinza"><strong>CELAM</strong><br />
+Consejo Episcopal Lationoamericano </span></td>
+  </tr>
+</table>
+</div>
+<BR style="clear:both" />
+<div id="mioloHomeMapaSite">
+<div class="titulo">
+<img src="http://www.rogacionistas.org.br/images/tit_mapa_do_site.jpg" />
+</div>
+
+<div class="conteudo">
+<p><a href="index.php">Home </a>
+    <br />
+    <a href="quem-somos.php">Quem Somos</a>
+    <br />
+  <a href="santo-anibal.php">  Santo Aníbal</a><br /> 
+   <a href="nossas-casas.php"> Nossas Casas</a><br />
+ <a href="mensagens.php">Mensagem</a><br />
+    <a href="agenda.php"> Agenda</a><br />
+
+<a href="videos.php">Vídeos</a>
+<br />
+<a href="http://www.rogate.org.br/loja/" target="_blank">Loja Virtual </a><br />
+<a href="contato.php">Contato</a></p>
+
+<p>
+<a href="setores.php?setor=Vocacional"><span class="colorAzulEscuro"><strong>Vocacional</strong></span></a><br />
+ <a href="noticias.php?setor=Vocacional">Notícias</a><br />
+<br />
+<a href="setores.php?setor=Socioeducativo"><span class="colorAzulEscuro"><strong>Socioeducativo</strong></span></a><br />
+<a href="noticias.php?setor=Socioeducativo">Notícias</a><br />
+<br />
+<a href="setores.php?setor=Missão"><span class="colorAzulEscuro"><strong>Missão</strong></span></a><br />
+<a href="noticias.php?setor=Missão">Notícias</a></p>
+
+<p><a href="setores.php?setor=Formação"><span class="colorAzulEscuro"><strong>Formação</strong></span></a><br />
+  <a href="noticias.php?setor=Formação">Notícias</a><br />
+<br />
+<a href="setores.php?setor=Paróquia"><span class="colorAzulEscuro"><strong>Paróquia</strong></span></a><br />
+<a href="noticias.php?setor=Paróquia">Notícias</a><br />
+<br />
+<a href="setores.php?setor=Juventudes"><span class="colorAzulEscuro"><strong>Juventudes</strong></span></a><br />
+<a href="noticias.php?setor=Juventudes">Notícias</a></p>
+
+<p><a href="setores.php?setor=Família do Rogate"><span class="colorAzulEscuro"><strong>Família do Rogate</strong></span></a><br />
+  <a href="noticias.php?setor=Família do Rogate">Notícias</a><br />
+  <a href="setores.php?setor=Família do Rogate&texto=RCJ e FDZ">RCJ e FDZ</a><br />
+<a href="setores.php?setor=Família do Rogate&texto=Missionárias Rog">Missionárias Rog</a><br />
+<a href="setores.php?setor=Família do Rogate&texto=Famílias Rog">Famílias Rog</a><br />
+<a href="setores.php?setor=Família do Rogate&texto=Ex-alunos">Ex-alunos </a> <br />
+<a href="setores.php?setor=Família do Rogate&texto=União de Oração">União de Oração</a>
+</p>
+
+
+</div>
+
+<div class="parceiros">
+  <table id="Table_01" width="317" height="201" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="http://www.rogate.org.br/" target="_blank"><img src="parceiros_01.jpg" alt="" width="162" height="87" border="0" /></a></td>
+      <td><a href="santo-anibal.php"><img src="parceiros_02.jpg" alt="" width="155" height="87" border="0" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.ipv.org.br/" target="_blank"><img src="parceiros_03.jpg" alt="" width="162" height="114" border="0" /></a></td>
+      <td><a href="http://www.triguito.org.br/" target="_blank"><img src="parceiros_04.jpg" alt="" width="155" height="114" border="0" /></a></td>
+    </tr>
+  </table>
+</div>
+
+</div>
+<img src="images/img_rodape_mapa.jpg" />
+
+<div id="footer">
+<p>Província Rogacionista São Lucas © 2011 - Todos os direitos reservados<br />
+Avenida Santa Marina, 534 - Água Branca - 05036-000 - São Paulo - SP - Brasil - Telefone: (11) 3619-4200 - <a href="mailto:provincia.br@rcj.org" target="_blank">provincia.br@rcj.org</a><br /><br />
+<span class="colorAzulClaro"><em><a href="http://www.anapaulafrancotti.com/" target="_blank">Web Design: Ana Paula Francotti</a> </em></span>
+</p>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>
+<!-- jQuery -->
+  <script src="js/banner/jquery.min.js"></script>
+  
+  <!-- FlexSlider -->
+  <script defer src="js/banner/jquery.flexslider.js"></script>
+  
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/banner/shCore.js"></script>
+  <script type="text/javascript" src="js/banner/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/banner/shBrushJScript.js"></script>
+  
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/banner/jquery.easing.js"></script>
+  <script src="js/banner/jquery.mousewheel.js"></script>
+  <script defer src="js/banner/demo.js"></script>

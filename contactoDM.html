@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Contacto PHP</title>
+	<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<? include("activos.php"); ?>
+<BODY bgcolor="#FFFF99">
+<br>
+<br>
+
+<form name="Mensajes" method="post" action="enviamail.php" enctype="multipart/form-data"> <!-- en el atributo action= Indicamos el nombre del scrip php que recibira los datos -->
+<P align=Center><font face="verdana" color="#0000FF"><b>FORMULARIO DE CONTACTO</b></FONT></P>
+<table bgcolor="#415369" align=Center cellpadding=4 cellspacing=0 border=0 width=500 height=305>
+	<tr>
+		<td bgcolor="#415369" width="95%" align="center">
+			<table cellpadding="5" cellspacing=0 border=0 width="100%" height="100%" bgcolor="#D1DADE">
+				<TR width="100%"><TD width="100%" colspan=2>&nbsp;</TD></TR>
+				<tr>
+					<td align="right"><b>Motivo: </b></font>
+					</td>
+					<td align="left">
+					<select name="rbutton" size="1">
+                <option value="Mensaje">Comentarios</option>
+                <option value="Recomendar">Consulta</option>
+                <option value="Pedido">Pedidos</option>
+              </select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><b>Nombre: </b></font>
+					</td>
+					<td align="left"><input type="text" name="nombre" size="50">
+					</td>
+				</tr>		
+				<tr>
+					<td align="right"><b>Email: </b></font>
+					</td>
+					<td align="left"><input type="text" name="email" size="50">
+					</td>
+				</tr>
+				<tr>
+			    	<td align="right"><b>Observaciones: </b></	font>
+					</td>
+					<td align="left"><textarea name="observacones" wrap="VIRTUAL" rows="6" cols="40"></textarea>
+					</td>
+				</tr>
+				<tr>
+			    	<td align="center" colspan="2">
+		    		<input type="submit" name="Submit" value="Enviar">
+		    		<input type="reset" name="Submit2" value="Borrar">
+					</td>
+				</tr>
+			</table>
+		</TD>
+	</TR>
+</TABLE>
+</form>
+</body>
+</html>

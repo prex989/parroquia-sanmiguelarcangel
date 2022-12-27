@@ -1,0 +1,599 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+  
+header{
+    width: 100%;
+    background: #537386;
+}
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+ 
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0,3);
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu li{
+    text-align: left;
+    flex-grow: 1;
+    
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0,3);
+}
+
+.menu li a {
+    display: block;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: #537386;
+        width: 70%;
+        margin-left:-80%;
+        transition: all 1.2s;
+        height: auto;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        
+    }
+
+    .menu li{
+       
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+
+.menu > li{
+    font-size: 1px;
+    display: inline-block;
+    }
+  
+  .menu > li > a{
+      position: relative;
+      display: inline-block;
+  }
+  
+  .menu li a:hover{
+      color: #CE7D35;
+    transition: all .3s;
+  }
+  
+  .submenu{
+      position: absolute;
+      background: #35424a;
+      width: auto ;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 1.5s;
+      flex-direction: column;
+  }
+  
+  .submenu li a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .menu li:hover .submenu{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+
+
+
+  table
+{
+    border-collapse: collapse;
+}
+td,th /* Todas las celdas de la tabla... */
+{
+  border: 1px solid black; /* tendrá un borde de 1 px */
+
+}
+.container{
+  width: 98%;
+  margin:auto;
+  overflow:hidden;
+ }
+
+.container2{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  text-align: justify;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#022942;
+  color:#ffffff;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.dark2{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
+
+}
+
+.dark3{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
+  text-decoration-color: #cccccc;
+
+}
+
+/* Header **/
+header{
+  background:#025080;
+  color:#ffffff;
+  padding-top:10px;
+  min-height:90px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+header li{
+  display:inline;
+  padding: 0 20px 0 20px;
+  
+}
+
+header #branding{
+  float: center;
+}
+
+header #branding h1{
+  margin:auto;
+}
+
+.text_encab{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18;
+  text-align: center;
+
+}
+.text_encab2{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25;
+  text-align: center;
+
+}
+
+.enc_imageleft{
+float: left;
+width:70px;
+height:100px;
+bottom:40px;
+right:40px;
+border-style: inherit;
+font-size:60px; 
+} 
+
+.enc_imagerigth{
+float: right;
+width:70px;
+height:100px;
+bottom:40px;
+right:40px;
+border-style: inherit;
+font-size:60px; 
+}
+
+header nav{
+  float:right;
+  margin-top:5px;
+  
+}
+
+.donacion{
+float: left;
+}
+
+header .highlight, header .current a{
+  color: #ffffff;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+
+}
+
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+  
+}
+
+/* Showcase */
+#showcase{
+  min-height:800px;
+  background:url('../img/ParroquiaSMA_Original.jpeg') no-repeat;
+  background-position: 10%;
+  font-weight: bold;
+  font-family: calibri;
+  font-style: italic;
+  text-align:right;
+  background-color:black;
+  color: #000000;
+}
+
+#showcase h1{
+  margin-top:10px;
+  font-size:25px;
+  margin-bottom:10px;
+  font-style: italic;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#025080
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+#sidebar2 .box2{
+  margin-top: 60px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+aside#sidebar2{
+  float:right;
+  margin-top: 60px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+/*Estilos de la galeria*/
+
+.galeria {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria li {
+  margin: 5px;
+}
+
+.galeria img {
+  width: 150px;
+  height: 100px;
+}
+
+/*Estilos del modal*/
+
+*.modal {
+  display: none;
+}
+
+.modal:target {
+  
+  display: block;
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.imagen {
+  width: 100%;
+  height: 50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen a {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2;
+}
+
+.imagen img {
+  width: 500px;
+  height: 100%;
+  max-width: 100%;
+  border: 7px solid #fff;
+  box-sizing: border-box;
+}
+
+.cerrar {
+  display: block;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  margin: 15px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  padding: 5px;
+  border-radius: 50%;
+  line-height: 25px;
+}
+.whatsapp {
+  position:center;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:85%;
+  text-align:center;
+  font-size:60px;
+  z-index:100;
+}
+
+.redessoc {
+  position:center;
+  width:40px;
+  height:40px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:85%;
+  text-align:right;
+  font-size:10px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.modal {
+  width: 85%;
+  height: 95%;
+  
+  position: absolute;
+  top: 25%;
+  left:10%;
+  display: flex;
+
+  animation: modal 2s 1s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+.contenido{
+  margin: auto;
+  width: 30%;
+  height: auto;
+  background: #FFF;
+  text-decoration: none;
+  justify-content: center;
+  font-weight: bold; 
+  text-align: center;
+  text-decoration: none;
+}
+
+#cerrarlo{
+  display: none;
+}
+
+#cerrarlo + label {
+  position: absolute;
+  color:#fff;
+  font-size: 25px;
+  z-index: 50;
+  background: darkred;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  right: 10px;
+  cursor: pointer;
+
+  animation: modal 2s 1s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#cerrarlo:checked + label, #cerrarlo:checked ~ .modal{
+  display: none;
+}
+
+@keyframes modal{
+  100%{
+    visibility: visible;
+    opacity: 1;
+  }
+}

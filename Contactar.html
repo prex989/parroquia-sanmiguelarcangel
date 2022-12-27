@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Corriente de Vida Madrugadores">
+	  <meta name="keywords" content="web Madrugadores San Miguel Arcangel">
+    <meta name="author" content="Pablo Rex">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Madrugadores Arguello | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Prueba WhatsApp</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <? include("activos.php"); ?>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Madrugadores</span> San Miguel Arcangel</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Suscribirse para mas Novedades</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Suscribirse</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Como me contacto</h1>
+
+        </article>
+        <form name="Mensajes" method="post" action="enviamail.php" enctype="multipart/form-data"> <!-- en el atributo action= Indicamos el nombre del scrip php que recibira los datos -->
+          <P align=left><font face="verdana" color="#0000FF"><b></b></FONT></P>
+          <table bgcolor="#415369" align=left cellpadding=4 cellspacing=0 border=0 width=500 height=305>
+            <tr>
+              <td bgcolor="#415369" width="95%" align="left">
+                <table cellpadding="5" cellspacing=0 border=0 width="100%" height="100%" bgcolor="#D1DADE">
+                  <TR width="100%"><TD width="100%" colspan=2>&nbsp;</TD></TR>
+                  <tr>
+                    <td align="right"><b>Motivo: </b></font>
+                    </td>
+                    <td align="left">
+                    <select name="rbutton" size="1">
+                          <option value="Mensaje">Comentarios</option>
+                          <option value="Recomendar">Consulta</option>
+                          <option value="Pedido">Pedidos</option>
+                        </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right"><b>Nombre: </b></font>
+                    </td>
+                    <td align="left"><input type="text" name="nombre" size="50">
+                    </td>
+                  </tr>		
+                  <tr>
+                    <td align="right"><b>Email: </b></font>
+                    </td>
+                    <td align="left"><input type="text" name="email" size="50">
+                    </td>
+                  </tr>
+                  <tr>
+                      <td align="right"><b>Observaciones: </b></	font>
+                    </td>
+                    <td align="left"><textarea name="observaciones" wrap="VIRTUAL" rows="6" cols="40"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td align="center" colspan="2">
+                      <input type="submit" name="Submit" value="Enviar">
+                      <input type="reset" name="Submit2" value="Borrar">
+                    </td>
+                  </tr>
+                </table>
+              </TD>
+            </TR>
+          </TABLE>
+          </form>
+        <aside id="sidebar">
+          <div class="dark">
+            <p class="dark">
+              Para poder comunicarte con los madrugadores, podes hacerlo a través del Whatsapp que figura adjunto. O también comunicarte a la secretaría de la Parroquia San Miguel Arcangel Teléfono Fijo 3543428807.
+            </p>
+            <h3>Whatsapp</h3>
+            <a href="https://wa.me/543516500509?text=Me%20gustaría%20saber%20como%20puedo%20participar%20" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Web de Madrugadores de San Miguel Arcangel &copy; 2020</p>
+    </footer>
+  </body>
+</html>
