@@ -71,9 +71,6 @@ header label:hover{
         
     }
 
-    .menu li{
-       
-    }
 
     #btn-menu:checked ~ .menu {
         margin: 0;
@@ -138,10 +135,12 @@ td,th /* Todas las celdas de la tabla... */
  }
 
 .container2{
-  width:80%;
+  width:90%;
+  padding: 0;
   margin:auto;
-  overflow:hidden;
+
   text-align: justify;
+  display:flexbox;
 }
 
 ul{
@@ -596,4 +595,12 @@ footer{
     visibility: visible;
     opacity: 1;
   }
+}
+
+.grid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1em;
+  column-gap: 2em;
 }
